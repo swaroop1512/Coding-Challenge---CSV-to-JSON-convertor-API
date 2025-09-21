@@ -60,11 +60,8 @@ app.post("/upload", upload.single("datafile"), async (req, res) => {
             delete obj.address;
 
             const additional_info=obj;
-            // const additional_info = { ...obj };
-            // delete additional_info.name;
-            // delete additional_info.age;
-            // delete additional_info.address;
-            // console.log(name,age,address,additional_info);
+            
+            // insert values query 
             const insertValueQuery=`INSERT INTO users (name, age, address, additional_info) VALUES ($1, $2, $3, $4)`;
             await client.query(
                insertValueQuery, [name, age, address, additional_info]
