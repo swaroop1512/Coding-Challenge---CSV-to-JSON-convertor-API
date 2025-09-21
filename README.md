@@ -34,7 +34,7 @@ new-project/
 1. **Clone the repository**
 
 ```bash
-https://github.com/swaroop1512/Coding-Challenge---CSV-to-JSON-convertor-API.git
+git clone https://github.com/swaroop1512/Coding-Challenge---CSV-to-JSON-convertor-API.git
 cd Coding-Challenge---CSV-to-JSON-convertor-API
 ```
 2. **Install Dependencies**
