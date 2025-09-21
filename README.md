@@ -13,18 +13,22 @@ A simple Express.js API that lets users upload CSV files, stores the data in Pos
 ---
 
 ## Project Structure
+## Project Structure
+
+```plaintext
 new-project/
-├── app.js 
-├── dbconnection.js 
-├── index.html
-├── utils.js
-├── uploads/
-├── .env.example
+├── app.js               
+├── dbconnection.js      
+├── utils.js             
+├── index.html          
+├── uploads/                        
+├── .env.example         
 ├── package.json
 ├── package-lock.json
-└── node_modules/
----
+└── node_modules/      
 
+---
+```
 ## Setup Instructions
 
 1. **Clone the repository**
