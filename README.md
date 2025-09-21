@@ -16,7 +16,7 @@ A simple Express.js API that lets users upload CSV files, stores the data in Pos
 ## Project Structure
 
 ```plaintext
-new-project/
+Coding-Challenge---CSV-to-JSON-convertor-API/
 ├── app.js               
 ├── dbconnection.js      
 ├── utils.js             
