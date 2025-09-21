@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
+// post api on uploading the CSV file
 app.post("/upload", upload.single("datafile"), async (req, res) => {
     const client = await pool.connect();
     try {
